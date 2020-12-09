@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <title>假的教资查询结果</title>
+</head>
+<body>
+    <div class="input">
+        <ul>
+            <br>
+            _姓名__: <input type="text" id="name">
+            <br>
+            证件号码:<input type="text" id="idcard">
+            <br>
+            _年度_:
+            <select id="updown">
+                <option value="上">上</option>
+                <option value="下">下</option>
+            </select>
+            <br>
+            _年___:
+            <select id="year">
+                
+            </select>
+            <br>
+            _学段_:
+            <select id="level">
+                <option value="幼儿园">幼儿园</option>
+                <option value="小学">小学</option>
+                <option value="初中">初中</option>
+                <option value="高中">高中</option>
+            </select>
+            <br>
+            _学科_:
+            <select id="subject">
+               
+            </select>
+            <br>
+            _成绩_:
+            <div id="scoreDiv" style="display: inline;">
+                <input disabled>
+            </div>
+            <br>
+            _省份_:
+            <select id="province">
+                <option value="河北省">河北省</option>
+<option value="山西省">山西省</option>
+<option value="辽宁省">辽宁省</option>
+<option value="吉林省">吉林省</option>
+<option value="黑龙江省">黑龙江省</option>
+<option value="江苏省">江苏省</option>
+<option value="浙江省">浙江省</option>
+<option value="安徽省">安徽省</option>
+<option value="福建省">福建省</option>
+<option value="江西省">江西省</option>
+<option value="山东省">山东省</option>
+<option value="河南省">河南省</option>
+<option value="湖北省">湖北省</option>
+<option value="湖南省">湖南省</option>
+<option value="广东省">广东省</option>
+<option value="海南省">海南省</option>
+<option value="四川省">四川省</option>
+<option value="贵州省">贵州省</option>
+<option value="云南省">云南省</option>
+<option value="陕西省">陕西省</option>
+<option value="甘肃省">甘肃省</option>
+<option value="青海省">青海省</option>
+<option value="台湾省">台湾省</option>
+<option value="内蒙古自治区">内蒙古自治区</option>
+<option value="广西壮族自治区">广西壮族自治区</option>
+<option value="西藏自治区">西藏自治区</option>
+<option value="宁夏回族自治区">宁夏回族自治区</option>
+<option value="新疆维吾尔自治区">新疆维吾尔自治区</option>
+<option value="北京市">北京市</option>
+<option value="天津市">天津市</option>
+<option value="上海市">上海市</option>
+<option value="重庆市">重庆市</option>
+            </select>
+            <br>
+            <button id="btn">确认</button>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="header">
+            <a href="#" style="display: inline-block;">
+                <img src="./logo.PNG">
+            </a>
+            <div class="rightFunc">
+                <div class="link">
+                    <a href="#">关于我们&nbsp; </a>|<a href="#">&nbsp; ENGLISH</a>
+                </div>
+                
+                <div class="searchBar">
+                    <input type="search" placeholder="请输入关键词">
+                    <button></button>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <a href="" class="home"></a>
+            <a href="">考试资讯</a>
+            <a href="">公示公告</a>
+            <a href="">考试项目</a>
+            <a href="">考试报名</a>
+            <a href="">成绩查询</a>
+            <a href="">证书查询</a>
+            <a href="">考试研究</a>
+            <a href="" class="actived">“十四五”建言</a>
+            <a href=""></a>
+        </nav>
+        <div class="bar">
+            <a href="#">首页&nbsp; </a>><a href="#">&nbsp;成绩查询</a>
+        </div>
+        <div class="result">
+            <div class="programe">
+                <div class="item">
+                    <div class="num">1</div>
+                    <p class="info">选择考试科目</p>
+                </div>
+                <div class="item">
+                    <div class="num">2</div>
+                    <p class="info">输入查询条件</p>
+                </div>
+                <div class="item">
+                    <div class="num">3</div>
+                    <p class="info">查看成绩</p>
+                </div>
+            </div>
+            <h2>中小学教师资格考试(NTCE)历史成绩</h2>
+            <p class="userInfo">
+                姓名:&nbsp;&nbsp;<span id="nameSlot"></span>&nbsp;&nbsp;&nbsp;证件号码:&nbsp;&nbsp;<span id="idcardSlot"></span>
+            </p>
+            <div class="exam">
+                <h5 class="title">笔试成绩</h5>
+                <table>
+                    <tr>
+                        <td>科目</td>
+                        <td>报告分</td>
+                        <td>合格与否</td>
+                        <td>准考证号</td>
+                        <td>考试批次</td>
+                        <td>有效期限</td>
+                        <td>考试省份</td>
+                    </tr>
+                    <tbody>
+                        
+                    </tbody>
+                </table>
+                <p class="note"><span style="color: red">备注:</span> 报告分满分120分，70分及以上为合格.</p>
+            </div>
+            <div class="fullDiv">
+                <button class="backSearch">返回继续查询</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <a href="#">
+                <img src="./copyright.png">
+            </a>
+            <div class="copyright">
+                <p>主办单位：XX部考试中心<br>
+                    版权所有：XX部考试中心　　京ICP备0000000号　　 京公网安备 00000000号
+                </p>　
+            </div>
+            <div class="link">
+                <span>友情链接:</span>
+                <ul>
+                    <li>
+                        <a href="#">克莱登大学</a>
+                    </li>
+                    <li class="hasLinkList">
+                        <a href="#">哥谭大学&nbsp;&nbsp;&nbsp;</a>
+                        <div class="linkList">
+                            <ul>
+                                <li><a href="#">克莱登大学</a></li>
+                                <li><a href="#">克莱登大学</a></li>
+                                <li><a href="#">克莱登大学</a></li>
+                                <li><a href="#">克莱登大学</a></li>
+                                <li><a href="#">克莱登大学</a></li>
+                                <li><a href="#">克莱登大学</a></li>
+                                <li><a href="#">克莱登大学</a></li>
+                                <li><a href="#">克莱登大学</a></li>
+                                <li><a href="#">克莱登大学</a></li>
+                                <li><a href="#">克莱登大学</a></li>
+                                <li><a href="#">克莱登大学</a></li>
+                                <li><a href="#">克莱登大学</a></li>
+                                <li><a href="#">克莱登大学</a></li>
+                                <li><a href="#">克莱登大学</a></li>
+                            </ul>
+                        </div>  
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="index.js"></script>
+</html>

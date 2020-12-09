@@ -1,0 +1,288 @@
+body,
+div,
+button {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #989FB0;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.container .header {
+  height: 125px;
+}
+.container .header .rightFunc {
+  padding-top: 12px !important;
+  float: right;
+  width: 275px;
+}
+.container .header .rightFunc .link {
+  float: right;
+  padding-bottom: 24px;
+}
+.container .header .rightFunc .link a {
+  color: #313E60;
+  font-size: 12px;
+  font-weight: 500;
+}
+.container .header .rightFunc .searchBar {
+  width: 275px;
+  float: right;
+  display: flex;
+}
+.container .header .rightFunc .searchBar input[type='search'] {
+  width: 242px;
+  border: 1px solid #E5E5E5;
+  border-top: 2px solid #999999;
+  border-left: 2px solid #999999;
+  height: 28px;
+  padding-left: 5px;
+}
+.container .header .rightFunc .searchBar button {
+  background: url(searchBtn.PNG);
+  background-size: 33px 30px;
+  width: 33px;
+  border: 0;
+}
+.container nav {
+  display: flex;
+  height: 44px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #E7E8EB;
+  border-bottom: 3px solid #003E7D;
+}
+.container nav .home {
+  display: inline-block;
+  background: url(home.jpg) no-repeat;
+  background-position: top;
+  height: 44px;
+  width: 70px;
+  background-color: #FF7F00;
+}
+.container nav a {
+  color: #003E7D;
+  font-weight: bold;
+}
+.container nav a:hover {
+  color: #FF7F00;
+}
+.container nav .actived {
+  color: #FF7F00;
+}
+.container .bar {
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  height: 35px;
+  border-bottom: 2px solid #DDDDDD;
+}
+.container .bar:before {
+  content: "";
+  display: inline-block;
+  background: url(home2.png);
+  width: 18px;
+  height: 14px;
+  left: 0;
+}
+.container .bar a {
+  color: #000000;
+}
+.container .result {
+  position: relative;
+}
+.container .result .programe {
+  height: 60px;
+  border-bottom: 2px solid #FF7F00;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 100px;
+}
+.container .result .programe .item {
+  height: 45px;
+  text-align: center;
+  margin-bottom: -40px;
+}
+.container .result .programe .item .num {
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  line-height: 15px;
+  color: #ffffff;
+  border-radius: 50% 50%;
+  background-color: #FF7F00;
+}
+.container .result .programe .item .info {
+  font-weight: bold;
+  color: #FF7F00;
+}
+.container .result h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.container .result .userInfo {
+  height: 20px;
+  border-bottom: 1px solid #00ADEF;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+.container .result .exam .title {
+  font-size: 20px;
+  font-weight: normal;
+}
+.container .result .exam table {
+  width: 100%;
+  border: 1px solid #CCCCCC;
+  border-spacing: 0px;
+}
+.container .result .exam table td {
+  border-right: 1px solid #CCCCCC;
+  height: 36px;
+}
+.container .result .exam table tr:nth-child(1) {
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  background-color: #00ADEF;
+}
+.container .result .exam table tr td:nth-last-child(1) {
+  border-right: 0;
+}
+.container .result .exam table tr:nth-child(n+2) td {
+  padding-left: 20px;
+  border-bottom: 1px solid #CCCCCC;
+}
+.container .result .exam .note {
+  margin-top: 8px;
+  font-size: 15px;
+}
+.container .result .fullDiv {
+  position: relative;
+  height: 100px;
+}
+.container .result .fullDiv .backSearch {
+  position: absolute;
+  left: 50%;
+  margin-left: -53px;
+  height: 30px;
+  width: 106px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #0DA3E2;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+}
+footer {
+  height: 110px;
+  background-color: #F4F4F4;
+}
+footer .container {
+  height: 110px;
+  display: flex;
+  align-items: center;
+}
+footer .container a:nth-child {
+  display: inline-block;
+}
+footer .container .copyright {
+  display: inline-block;
+  margin: 0;
+  padding-top: 10px;
+}
+footer .container .copyright p {
+  font-size: 12px;
+  margin: 0;
+}
+footer .container .link {
+  font-size: 12px;
+  width: 200px;
+  float: right;
+  margin-right: 100px;
+  background: url('dot.jpg') repeat-x 60% 10px;
+}
+footer .container .link span {
+  padding: 5px 8px 5px 0;
+  background-color: #f4f4f4;
+}
+footer .container .link ul {
+  display: flex;
+  justify-content: space-between;
+}
+footer .container .link ul li:nth-child(2) {
+  position: relative;
+}
+footer .container .link ul li:nth-child(2) a:nth-child(1):after {
+  content: "";
+  display: inline-block;
+  background: url('trangular.png');
+  width: 6px;
+  height: 5px;
+  right: -10px;
+}
+footer .container .link .linkList {
+  overflow-y: auto !important;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  display: none;
+  left: -150px;
+  top: -200px;
+  background: white;
+}
+footer .container .link .linkList ul {
+  font-size: 16px;
+  display: block;
+  padding-left: 0;
+}
+footer .container .link .linkList ul li {
+  margin-bottom: 5px;
+}
+footer .container .link .linkList ul a:after {
+  content: "";
+  width: 0 !important;
+}
+.input {
+  position: fixed;
+  margin: 0 auto;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: skyblue;
+  border-radius: 10px;
+  border: 5px solid green;
+  z-index: 100;
+  width: 80%;
+  text-align: center;
+}
+.input button {
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  margin-left: 10px;
+  background-color: orange;
+}
+.input input {
+  line-height: 40px;
+  margin: 10px;
+  height: 40px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.input input:focus {
+  border: 3px solid skyblue;
+  border-radius: 10px;
+}
+.input select {
+  width: 164px;
+  height: 46px;
+  margin: 10px;
+}
