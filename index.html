@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="index.css" />
     <title>假的教资查询结果</title>
 </head>
+
 <body>
     <div class="input">
         <ul>
@@ -16,17 +18,19 @@
             <br>
             _年度_:
             <select id="updown">
+                <option value="">请选择</option>
                 <option value="上">上</option>
                 <option value="下">下</option>
             </select>
             <br>
             _年___:
             <select id="year">
-                
+
             </select>
             <br>
             _学段_:
             <select id="level">
+                <option value="">请选择</option>
                 <option value="幼儿园">幼儿园</option>
                 <option value="小学">小学</option>
                 <option value="初中">初中</option>
@@ -35,7 +39,7 @@
             <br>
             _学科_:
             <select id="subject">
-               
+
             </select>
             <br>
             _成绩_:
@@ -45,38 +49,39 @@
             <br>
             _省份_:
             <select id="province">
+                <option value="">请选择</option>
                 <option value="河北省">河北省</option>
-<option value="山西省">山西省</option>
-<option value="辽宁省">辽宁省</option>
-<option value="吉林省">吉林省</option>
-<option value="黑龙江省">黑龙江省</option>
-<option value="江苏省">江苏省</option>
-<option value="浙江省">浙江省</option>
-<option value="安徽省">安徽省</option>
-<option value="福建省">福建省</option>
-<option value="江西省">江西省</option>
-<option value="山东省">山东省</option>
-<option value="河南省">河南省</option>
-<option value="湖北省">湖北省</option>
-<option value="湖南省">湖南省</option>
-<option value="广东省">广东省</option>
-<option value="海南省">海南省</option>
-<option value="四川省">四川省</option>
-<option value="贵州省">贵州省</option>
-<option value="云南省">云南省</option>
-<option value="陕西省">陕西省</option>
-<option value="甘肃省">甘肃省</option>
-<option value="青海省">青海省</option>
-<option value="台湾省">台湾省</option>
-<option value="内蒙古自治区">内蒙古自治区</option>
-<option value="广西壮族自治区">广西壮族自治区</option>
-<option value="西藏自治区">西藏自治区</option>
-<option value="宁夏回族自治区">宁夏回族自治区</option>
-<option value="新疆维吾尔自治区">新疆维吾尔自治区</option>
-<option value="北京市">北京市</option>
-<option value="天津市">天津市</option>
-<option value="上海市">上海市</option>
-<option value="重庆市">重庆市</option>
+                <option value="山西省">山西省</option>
+                <option value="辽宁省">辽宁省</option>
+                <option value="吉林省">吉林省</option>
+                <option value="黑龙江省">黑龙江省</option>
+                <option value="江苏省">江苏省</option>
+                <option value="浙江省">浙江省</option>
+                <option value="安徽省">安徽省</option>
+                <option value="福建省">福建省</option>
+                <option value="江西省">江西省</option>
+                <option value="山东省">山东省</option>
+                <option value="河南省">河南省</option>
+                <option value="湖北省">湖北省</option>
+                <option value="湖南省">湖南省</option>
+                <option value="广东省">广东省</option>
+                <option value="海南省">海南省</option>
+                <option value="四川省">四川省</option>
+                <option value="贵州省">贵州省</option>
+                <option value="云南省">云南省</option>
+                <option value="陕西省">陕西省</option>
+                <option value="甘肃省">甘肃省</option>
+                <option value="青海省">青海省</option>
+                <option value="台湾省">台湾省</option>
+                <option value="内蒙古自治区">内蒙古自治区</option>
+                <option value="广西壮族自治区">广西壮族自治区</option>
+                <option value="西藏自治区">西藏自治区</option>
+                <option value="宁夏回族自治区">宁夏回族自治区</option>
+                <option value="新疆维吾尔自治区">新疆维吾尔自治区</option>
+                <option value="北京市">北京市</option>
+                <option value="天津市">天津市</option>
+                <option value="上海市">上海市</option>
+                <option value="重庆市">重庆市</option>
             </select>
             <br>
             <button id="btn">确认</button>
@@ -91,7 +96,7 @@
                 <div class="link">
                     <a href="#">关于我们&nbsp; </a>|<a href="#">&nbsp; ENGLISH</a>
                 </div>
-                
+
                 <div class="searchBar">
                     <input type="search" placeholder="请输入关键词">
                     <button></button>
@@ -130,7 +135,8 @@
             </div>
             <h2>中小学教师资格考试(NTCE)历史成绩</h2>
             <p class="userInfo">
-                姓名:&nbsp;&nbsp;<span id="nameSlot"></span>&nbsp;&nbsp;&nbsp;证件号码:&nbsp;&nbsp;<span id="idcardSlot"></span>
+                姓名:&nbsp;&nbsp;<span id="nameSlot"></span>&nbsp;&nbsp;&nbsp;证件号码:&nbsp;&nbsp;<span
+                    id="idcardSlot"></span>
             </p>
             <div class="exam">
                 <h5 class="title">笔试成绩</h5>
@@ -145,7 +151,7 @@
                         <td>考试省份</td>
                     </tr>
                     <tbody>
-                        
+
                     </tbody>
                 </table>
                 <p class="note"><span style="color: red">备注:</span> 报告分满分120分，70分及以上为合格.</p>
@@ -190,13 +196,14 @@
                                 <li><a href="#">克莱登大学</a></li>
                                 <li><a href="#">克莱登大学</a></li>
                             </ul>
-                        </div>  
+                        </div>
                     </li>
-                    
+
                 </ul>
             </div>
         </div>
     </footer>
 </body>
 <script src="index.js"></script>
+
 </html>
